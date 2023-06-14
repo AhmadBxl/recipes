@@ -50,6 +50,10 @@ input {
   border-radius: 5px;
 }
 
+textarea:focus {
+  outline-color: blue; 
+}
+
 .navbar {
   margin: 0;
   width: 100%;
@@ -85,6 +89,7 @@ a {
   display: flex;
   flex-direction: column;
 }
+
 ul {
   list-style: none;
   padding: 0;
